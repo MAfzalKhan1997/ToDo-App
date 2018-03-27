@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-image: url('images/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+p{
+    font-size: 60px;
+    margin:50px 0px 30px 0px;
+}
+
+input{
+    color: white;
+    font-family: Courier New, Courier, monospace;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 60%;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+::-webkit-input-placeholder{
+    color :rgba(255, 255, 255, 0.582);   
+    font-family: Courier New, Courier, monospace;
+}
+
+.addbtn , .delallbtn{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 60px;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+}
+
+div .tasks{
+    width: 60%;
+    margin: 0px auto;
+}
+
+div ol li{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+
+}
+
+.addbtn:hover , .delallbtn:hover{
+    opacity: 0.9;
+    background:rgba(0, 0, 0, 0.096);
+    transition: 0.7s;
+}
+
+.trashbutton{
+    background: none;
+    outline: none;
+    border: none;
+    float: right;   
+}
+.editbutton{
+    background: none;
+    outline: none;
+    border: none;
+    float: right;   
+}
